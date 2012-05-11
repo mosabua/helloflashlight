@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.simpligility.android</groupId>
     <artifactId>helloflashlight</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>apk</packaging>
     <name>HelloFlashlight</name>
     <url>https://github.com/jayway/maven-android-plugin-samples/tree/master/helloflashlight</url>
@@ -134,7 +134,7 @@
                                 <inherited>true</inherited>
                                 <configuration>
                                     <removeExistingSignatures>true</removeExistingSignatures>
-                                    <archiveDirectory/>
+                                    <archiveDirectory />
                                     <includes>
                                         <include>${project.build.directory}/${project.artifactId}.apk</include>
                                     </includes>
