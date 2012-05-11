@@ -11,15 +11,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-    <!--<scm>-->
-        <!--<connection></connection>-->
-        <!--<developerConnection></developerConnection>-->
-        <!--<url></url>-->
-    <!--</scm>-->
+    <scm>
+        <connection>scm:git:git://github.com/mosabua/helloflashlight.git</connection>
+        <developerConnection>scm:git:git@github.com:mosabua/helloflashlight.git</developerConnection>
+        <url>http://github.com/mosabua/helloflashlight/tree/master</url>
+    </scm>
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
             <url>http://localhost:8081/nexus/content/repositories/releases</url>
+            <!-- the url below is for using the Nexus Professional Staging Suite -->
             <!-- <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2/</url> -->
         </repository>
 		<snapshotRepository>
