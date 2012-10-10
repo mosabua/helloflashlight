@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simpligility.android</groupId>
   <artifactId>helloflashlight</artifactId>
-  <version>2.2.1-RC3-SNAPSHOT</version>
+  <version>2.2.1-RC3</version>
   <packaging>apk</packaging>
   <name>HelloFlashlight</name>
   <url>https://github.com/jayway/maven-android-plugin-samples/tree/master/helloflashlight</url>
